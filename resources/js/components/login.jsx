@@ -8,16 +8,15 @@ const Login = () => {
       {/* Navbar */}
       <nav className="w-full flex justify-between items-center px-12 py-4 bg-white shadow-md fixed top-0">
         <div className="text-lg font-semibold"></div>
-        <div className="space-x-6 text-gray-700">
+        <div className="space-x-6 text-gray-700 mr-auto">
           <a href="#" className="bg-blue-600 text-white px-4 py-2 rounded-lg">Home</a>
           <a href="#" className="hover:text-black">Events</a>
-          <a href="#" className="hover:text-black">Tickets</a>
-          <a href="#" className="hover:text-black">Historique</a>
+          
         </div>
         <div className="flex space-x-4">
           <a href="#" className="text-gray-700">English ⌄</a>
           <a href="#" className="bg-blue-600 text-white px-4 py-2 rounded-lg">Sign in</a>
-          <a href="#" className="text-blue-600 font-semibold underline">Register</a>
+          <a href="/register" className="text-blue-600 font-semibold underline">Register</a>
         </div>
       </nav>
 

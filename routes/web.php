@@ -16,3 +16,7 @@ Route::get('/events', function () {
 Route::get('/register', function () {
     return view('register');
 });
+
+Route::get('/ticket', function () {
+    return view('ticket');
+});
